@@ -1,7 +1,7 @@
 function setup() {
   createCanvas(displayWidth, displayHeight);
   //Liking the idea of having a different    background load up for each veiwer 
-  background(random(100),random(100),random(100));
+  background(random(>200),random(>200),random(>200));
 }
 
 function draw() {
@@ -10,7 +10,7 @@ function draw() {
 }
 function mousePressed() {
   clear();
-  background(128);
+  background(random(>200),random(>200),random(>200));
 }
 
 
