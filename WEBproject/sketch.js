@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(width, height);
+  createCanvas(displayWidth, displayHeight);
   //Liking the idea of having a different    background load up for each veiwer 
   background(random(100),random(100),random(100));
 }
