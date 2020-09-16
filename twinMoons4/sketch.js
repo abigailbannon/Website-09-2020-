@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw(){
-background(random(12),random(12),random(12));
+background(random(9),random(9),random(9));
 
   ellipse(width/2,height/2,50,50);
   noStroke();
